@@ -1,0 +1,18 @@
+{% extends "core/base.html" %}}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+
+<h1>Here is the list of items</h1>
+{% for item in items %}
+      {{item}}
+
+{% endfor %}
+
+{% endblock content %}
+</body>
+</html>
